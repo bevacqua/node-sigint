@@ -1,0 +1,35 @@
+{
+  "name": "node-sigint",
+  "description": "Normalize sigint signals on windows platforms",
+  "author": {
+    "name": "Nicolas Bevacqua",
+    "email": "nicolasbevacqua@gmail.com",
+    "url": "http://www.ponyfoo.com"
+  },
+  "version": "0.0.1",
+  "dependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bevacqua/node-sigint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bevacqua/node-sigint/issues"
+  },
+  "keywords": [
+    "sigint",
+    "process",
+    "win32",
+    "windows"
+  ],
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "main": "./src/sigint.js",
+  "engines": {
+    "node": ">= 0.8.x",
+    "npm": ">= 1.1.x"
+  }
+}
